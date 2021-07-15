@@ -1,18 +1,9 @@
 # **Finding Lane Lines on the Road** 
 
 
-## List of files
 
-1. P!.ipynb
-2. report.md
-3. test_images, test_videos folders for input files
 
-## Instructions to run
-**Step 1:** Set up the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) if you haven't already.
-
-**Step 2:** Open the code (P1.ipynb) in a Jupyter Notebook
-
-## The goals / steps of this project are the following:
+The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on the work in a written report
 
