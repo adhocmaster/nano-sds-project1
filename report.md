@@ -58,9 +58,11 @@ One potential shortcoming would be what would happen when the broken lines on a 
 
 Another shortcoming is the algorithm assumes a fixed position of the camera with respect to the lane positions, and chooses a region of interest based on that. So, it's possible to have lanes that might not be always in the selected region, because the vehicle can move laterally, change the heading, or hit a bump. 
 
-Another great shortcoming is that this algorithm will probably only work in a sunny day. The edge detection algorithms depend on the parameters chosen on the basis of the sample inputs for this project only.
+Another great shortcoming is that this algorithm will probably only work in a sunny day and without shades on the roads. The edge detection algorithms depend on the parameters chosen on the basis of the sample inputs for this project only.
 
 Another short coming is if there is a preceding vehicle which have lines resembiling the lanes, or high contrasting surfaces of roads running in parallel to the lanes, it may falsely identify them as lane lines. Though I implemented filtering with expected intercept, it will still fail as such lines may also pass the intercept test. 
+
+I didn't check whether the two lane lines will intersect inside the region of interest. I may happen while taking a curve. When then need to shorten the lines. You can see crossing of lines in the optional challenge.
 
 
 
